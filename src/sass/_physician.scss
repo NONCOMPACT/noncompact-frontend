@@ -1,0 +1,9 @@
+.physician-page-container {
+  padding-top: 6.5rem;
+}
+
+@include media-breakpoint-up(lg) {
+  .physician-page-container {
+    padding-top: 4rem;
+  }
+}
