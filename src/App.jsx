@@ -1,25 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Header from './components/header';
+import Footer from './components/footer';
+import LandingPage from './components/landing';
+import AboutUs from './components/about';
+import Patients from './components/patients';
+import Physician from './components/physician';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <header className="header-container">
+          <Header />
+        </header>
+        <section className="main">
+          <Switch>
+            <Route path="/" exact component={LandingPage} />
+            <Route path="/about" component={AboutUs} />
+            <Route path="/patients" component={Patients} />
+            <Route path="/physician" component={Physician} />
+          </Switch>
+        </section>
+        <footer className="footer mt-auto">
+          <Footer />
+        </footer>
+      </div>
+    </Router>
   );
 }
 
