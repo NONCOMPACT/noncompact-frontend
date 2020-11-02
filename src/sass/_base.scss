@@ -20,19 +20,35 @@ html, body {
 }
 
 .bg-noncompact-primary {
-  background-color: #22313d;
+  background-color: #1e2b33;
 }
 
 .bg-noncompact-secondary {
-  background-color: #977ae5;
+  background-color: #23313a;
+}
+
+.bg-noncompact-accent {
+  background-color: #9283f7;
+}
+
+.bg-noncompact-muted {
+  background-color: #d3d8dd;
 }
 
 .text-noncompact-primary {
-  color: #22313d;
+  color: #1e2b33;
 }
 
 .text-noncompact-secondary {
-  color: #977ae5;
+  color: #23313a;
+}
+
+.text-noncompact-accent {
+  color: #9283f7;
+}
+
+.text-noncompact-muted {
+  color: #d3d8dd;
 }
 
 .page-section {

@@ -48,7 +48,7 @@ function LandingPage() {
             <div className="row pt-4">
               <div className="col-md-4">
                 <span className="fa-stack fa-4x">
-                  <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-noncompact-secondary" />
+                  <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-noncompact-accent" />
                   <FontAwesomeIcon icon={faBriefcaseMedical} className="fa-stack-1x fa-inverse" />
                 </span>
                 <h4 className="my-3 font-weight-bold">Case 1 Title</h4>
@@ -56,7 +56,7 @@ function LandingPage() {
               </div>
               <div className="col-md-4">
                 <span className="fa-stack fa-4x">
-                  <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-noncompact-secondary" />
+                  <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-noncompact-accent" />
                   <FontAwesomeIcon icon={faBriefcaseMedical} className="fa-stack-1x fa-inverse" />
                 </span>
                 <h4 className="my-3 font-weight-bold">Case 2 Title</h4>
@@ -64,7 +64,7 @@ function LandingPage() {
               </div>
               <div className="col-md-4">
                 <span className="fa-stack fa-4x">
-                  <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-noncompact-secondary" />
+                  <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-noncompact-accent" />
                   <FontAwesomeIcon icon={faBriefcaseMedical} className="fa-stack-1x fa-inverse" />
                 </span>
                 <h4 className="my-3 font-weight-bold">Case 3 Title</h4>
