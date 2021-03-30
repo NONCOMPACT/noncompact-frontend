@@ -2,7 +2,7 @@ import React from 'react';
 
 function Physician() {
   return (
-    <div className="about-page-container">
+    <div className="physician-page-container">
       {/* Information to refer patients */}
       <section className="page-section">
         <div className="container">

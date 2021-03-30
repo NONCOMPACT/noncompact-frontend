@@ -2,11 +2,16 @@
   padding-top: 6.5rem;
 
   .institution-row {
-    h5  {
+    .institution-header {
+      align-items: center;
+      border-bottom: solid 1px #dee2e6;
+      display: flex;
       height: 2.5em;
+      padding-bottom: 0.5em;
 
       img {
         height: 100%;
+        margin-right: 0.85em;
         width: auto;
       }
     }
@@ -46,5 +51,41 @@
 @include media-breakpoint-up(lg) {
   .about-page-container {
     padding-top: 4rem;
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .about-page-container {
+    .page-section {
+      .container {
+        .row {
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 478px) {
+  .about-page-container {
+    .institution-row {
+      h5.institution-header {
+        align-items: normal;
+        border-bottom: none;
+        display: block;
+        margin-bottom: 2.5em;
+        text-align: center;
+
+        img.institution-logo {
+          margin-right: 0;
+        }
+
+        .institution-name {
+          display: block;
+          margin: 0.5em 0;
+        }
+      }
+    }
   }
 }

@@ -45,10 +45,10 @@ function AboutUs() {
         {institutions.map((item) => {
           return (
             <div key={item.abbr} className="institution-row">
-              <h5 className="mt-2 pb-2 border-bottom text-noncompact-muted d-flex align-items-center">
+              <h5 className="mt-2 text-noncompact-muted institution-header">
                 <img
                   src={item.logo}
-                  className="institution-logo mr-3"
+                  className="institution-logo"
                   alt={item.name}
                 />
                 <span className="institution-name font-weight-bold">

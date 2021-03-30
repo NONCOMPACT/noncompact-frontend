@@ -7,3 +7,16 @@
     padding-top: 4rem;
   }
 }
+
+@include media-breakpoint-down(xs) {
+  .physician-page-container {
+    .page-section {
+      .container {
+        .row {
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
