@@ -15,33 +15,33 @@
         width: auto;
       }
     }
+  }
 
-    .investigators-list {
-      .investigator {
-        .media-wrapper {
-          width: 10.0em;
-          height: 10.0em;
-          background-color: lighten(#d3d8dd, 5%);
-          border: 0.425rem solid #d3d8dd;
-          border-radius: 5.0em;
-          margin: 0 auto;
-          overflow: hidden;
+  .investigators-list {
+    .investigator {
+      .media-wrapper {
+        width: 10.0em;
+        height: 10.0em;
+        background-color: lighten(#d3d8dd, 5%);
+        border: 0.425rem solid #d3d8dd;
+        border-radius: 5.0em;
+        margin: 0 auto;
+        overflow: hidden;
 
-          img {
-            border-radius: 50%;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: center;
-          }
+        img {
+          border-radius: 50%;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
 
-          .svg-inline--fa {
-            color: darken(#d3d8dd, 5%);
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: center;
-          }
+        .svg-inline--fa {
+          color: darken(#d3d8dd, 5%);
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
         }
       }
     }

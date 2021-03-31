@@ -2,7 +2,7 @@ import React from 'react';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import institutions from '../lib/institutions';
-import investigators from '../lib/investigators';
+import investigators, { principleInvestigators } from '../lib/investigators';
 
 function AboutUs() {
   // Render investigators of each institution
@@ -38,6 +38,28 @@ function AboutUs() {
     return null;
   }
 
+  function renderPrincipleInvestigators() {
+    return (
+      <div className="investigators-list row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 mt-4 w-100">
+        {principleInvestigators.map((item) => {
+          return (
+            <article key={item.name} className="investigator col mb-4">
+              <figure className="investigator-image mb-2">
+                <div className="media-wrapper">
+                  <img src={item.photo} alt={item.name} />
+                </div>
+              </figure>
+              <div className="investigator-name text-center font-size-smaller">
+                <p className="h5">{item.name}</p>
+                <p className="h6 text-muted">{item.institution}</p>
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    );
+  }
+
   // Render 5 rows of institutions
   function renderInstitutions() {
     return (
@@ -62,6 +84,7 @@ function AboutUs() {
       </div>
     );
   }
+
   return (
     <div className="about-page-container">
       {/* About the consortium */}
@@ -79,6 +102,13 @@ function AboutUs() {
               non-compaction.
             </p>
           </div>
+          {/* Principle Investigators */}
+          <div className="row text-left">
+            <h3 className="mt-3 mb-1 w-100 font-weight-bold text-noncompact-secondary">
+              Principle Investigators
+            </h3>
+            {renderPrincipleInvestigators()}
+          </div>
           {/* Co-Investigators */}
           <div className="row text-left">
             <h4 className="mt-3 mb-4 font-weight-bold text-noncompact-secondary">
@@ -94,7 +124,12 @@ function AboutUs() {
         <div className="container">
           <div className="row text-left">
             <h2 className="section-heading">NIH Funding</h2>
-            <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur.</p>
+            <p className="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+              voluptatum eius sapiente, totam reiciendis temporibus qui
+              quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
+              dolore laudantium consectetur.
+            </p>
           </div>
         </div>
       </section>

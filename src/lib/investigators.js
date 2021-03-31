@@ -91,4 +91,17 @@ const investigators = [
   },
 ];
 
+export const principleInvestigators = [
+  {
+    name: 'Koen Nieman',
+    photo: KoenNiemanImg,
+    institution: 'Stanford University',
+  },
+  {
+    name: 'Wilson Tang',
+    photo: WilsonTangImg,
+    institution: 'The Cleveland Clinic',
+  },
+];
+
 export default investigators;
