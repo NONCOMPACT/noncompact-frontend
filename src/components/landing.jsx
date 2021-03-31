@@ -36,7 +36,12 @@ function LandingPage() {
         <div className="container">
           <div className="text-center">
             <h2 className="section-heading">Enrollment Update</h2>
-            <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur.</p>
+            <p className="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+              voluptatum eius sapiente, totam reiciendis temporibus qui
+              quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
+              dolore laudantium consectetur.
+            </p>
           </div>
         </div>
       </section>
@@ -48,27 +53,57 @@ function LandingPage() {
             <div className="row pt-4">
               <div className="col-md-4">
                 <span className="fa-stack fa-4x">
-                  <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-noncompact-accent" />
-                  <FontAwesomeIcon icon={faBriefcaseMedical} className="fa-stack-1x fa-inverse" />
+                  <FontAwesomeIcon
+                    icon={faCircle}
+                    className="fa-stack-2x text-noncompact-accent"
+                  />
+                  <FontAwesomeIcon
+                    icon={faBriefcaseMedical}
+                    className="fa-stack-1x fa-inverse"
+                  />
                 </span>
                 <h4 className="my-3 font-weight-bold">Case 1 Title</h4>
-                <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                <p className="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Minima maxime quam architecto quo inventore harum ex magni,
+                  dicta impedit.
+                </p>
               </div>
               <div className="col-md-4">
                 <span className="fa-stack fa-4x">
-                  <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-noncompact-accent" />
-                  <FontAwesomeIcon icon={faBriefcaseMedical} className="fa-stack-1x fa-inverse" />
+                  <FontAwesomeIcon
+                    icon={faCircle}
+                    className="fa-stack-2x text-noncompact-accent"
+                  />
+                  <FontAwesomeIcon
+                    icon={faBriefcaseMedical}
+                    className="fa-stack-1x fa-inverse"
+                  />
                 </span>
                 <h4 className="my-3 font-weight-bold">Case 2 Title</h4>
-                <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                <p className="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Minima maxime quam architecto quo inventore harum ex magni,
+                  dicta impedit.
+                </p>
               </div>
               <div className="col-md-4">
                 <span className="fa-stack fa-4x">
-                  <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-noncompact-accent" />
-                  <FontAwesomeIcon icon={faBriefcaseMedical} className="fa-stack-1x fa-inverse" />
+                  <FontAwesomeIcon
+                    icon={faCircle}
+                    className="fa-stack-2x text-noncompact-accent"
+                  />
+                  <FontAwesomeIcon
+                    icon={faBriefcaseMedical}
+                    className="fa-stack-1x fa-inverse"
+                  />
                 </span>
                 <h4 className="my-3 font-weight-bold">Case 3 Title</h4>
-                <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                <p className="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Minima maxime quam architecto quo inventore harum ex magni,
+                  dicta impedit.
+                </p>
               </div>
             </div>
           </div>
@@ -79,9 +114,17 @@ function LandingPage() {
         <div className="container">
           <div className="text-center">
             <div className="fa-4x mb-4">
-              <FontAwesomeIcon icon={faUserCircle} className="fa-4x text-noncompact-secondary" />
+              <FontAwesomeIcon
+                icon={faUserCircle}
+                className="fa-4x text-noncompact-secondary"
+              />
             </div>
-            <p className="text-muted font-italic">Something personal - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur.</p>
+            <p className="text-muted font-italic">
+              Something personal - Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Sunt ut voluptatum eius sapiente, totam
+              reiciendis temporibus qui quibusdam, recusandae sit vero unde,
+              sed, incidunt et ea quo dolore laudantium consectetur.
+            </p>
           </div>
         </div>
       </section>
@@ -90,22 +133,38 @@ function LandingPage() {
         <div className="row">
           <div className="col-md-3 col-sm-6 my-3 px-4 d-flex align-items-center">
             <a href="#!" className="external-link">
-              <img className="img-fluid d-block mx-auto" src={LogoClevelandClinic} alt="Cleveland Clinic" />
+              <img
+                className="img-fluid d-block mx-auto"
+                src={LogoClevelandClinic}
+                alt="Cleveland Clinic"
+              />
             </a>
           </div>
           <div className="col-md-3 col-sm-6 my-3 px-4 d-flex align-items-center">
             <a href="#!" className="external-link">
-              <img className="img-fluid d-block mx-auto" src={LogoUPenn} alt="University of Pennsylvania" />
+              <img
+                className="img-fluid d-block mx-auto"
+                src={LogoUPenn}
+                alt="University of Pennsylvania"
+              />
             </a>
           </div>
           <div className="col-md-3 col-sm-6 my-3 px-4 d-flex align-items-center">
             <a href="#!" className="external-link">
-              <img className="img-fluid d-block mx-auto" src={LogoErasmus} alt="Erasmus MC Rotterdam" />
+              <img
+                className="img-fluid d-block mx-auto"
+                src={LogoErasmus}
+                alt="Erasmus MC Rotterdam"
+              />
             </a>
           </div>
           <div className="col-md-3 col-sm-6 my-3 px-4 d-flex align-items-center">
             <a href="#!" className="external-link">
-              <img className="img-fluid d-block mx-auto" src={LogoSNUH} alt="Seoul National University Hospital" />
+              <img
+                className="img-fluid d-block mx-auto"
+                src={LogoSNUH}
+                alt="Seoul National University Hospital"
+              />
             </a>
           </div>
         </div>

@@ -38,18 +38,27 @@ function Patients() {
             <div className="w-100 mb-3">
               <ul className="list-group">
                 <li className="list-group-item text-muted">
-                  <FontAwesomeIcon icon={faCheckCircle} className="mr-2 text-noncompact-accent" />
+                  <FontAwesomeIcon
+                    icon={faCheckCircle}
+                    className="mr-2 text-noncompact-accent"
+                  />
                   <span>≥18 years old</span>
                 </li>
                 <li className="list-group-item text-muted">
-                  <FontAwesomeIcon icon={faCheckCircle} className="mr-2 text-noncompact-accent" />
+                  <FontAwesomeIcon
+                    icon={faCheckCircle}
+                    className="mr-2 text-noncompact-accent"
+                  />
                   <span>
                     Hypertrabeculation of the left ventricle fulfilling the
                     echo-based Jenni criteria of NCCM
                   </span>
                 </li>
                 <li className="list-group-item text-muted">
-                  <FontAwesomeIcon icon={faCheckCircle} className="mr-2 text-noncompact-accent" />
+                  <FontAwesomeIcon
+                    icon={faCheckCircle}
+                    className="mr-2 text-noncompact-accent"
+                  />
                   <span>
                     Clinical cardiac MRI examination performed or planned
                   </span>
@@ -63,7 +72,10 @@ function Patients() {
             <div className="w-100 mb-3">
               <ul className="list-group">
                 <li className="list-group-item text-muted">
-                  <FontAwesomeIcon icon={faCheckCircle} className="mr-2 text-noncompact-accent" />
+                  <FontAwesomeIcon
+                    icon={faCheckCircle}
+                    className="mr-2 text-noncompact-accent"
+                  />
                   <span>
                     Complex congenital disease (including transposition great
                     arteries, tetralogy of Fallot, tricuspid atresia, truncus
@@ -73,11 +85,17 @@ function Patients() {
                   </span>
                 </li>
                 <li className="list-group-item text-muted">
-                  <FontAwesomeIcon icon={faCheckCircle} className="mr-2 text-noncompact-accent" />
+                  <FontAwesomeIcon
+                    icon={faCheckCircle}
+                    className="mr-2 text-noncompact-accent"
+                  />
                   <span>Inability to provide informed consent</span>
                 </li>
                 <li className="list-group-item text-muted">
-                  <FontAwesomeIcon icon={faCheckCircle} className="mr-2 text-noncompact-accent" />
+                  <FontAwesomeIcon
+                    icon={faCheckCircle}
+                    className="mr-2 text-noncompact-accent"
+                  />
                   <span>
                     Contra-indications to MRI, which apply if the clinical
                     cardiac MRI has not yet been performed at the time of study
@@ -99,34 +117,55 @@ function Patients() {
             <div className="w-100 mb-3">
               <ul className="list-group">
                 <li className="list-group-item text-muted">
-                  <FontAwesomeIcon icon={faCheckCircle} className="mr-2 text-noncompact-accent" />
+                  <FontAwesomeIcon
+                    icon={faCheckCircle}
+                    className="mr-2 text-noncompact-accent"
+                  />
                   <span>Age &lt;21 years</span>
                 </li>
                 <li className="list-group-item text-muted">
-                  <FontAwesomeIcon icon={faCheckCircle} className="mr-2 text-noncompact-accent" />
+                  <FontAwesomeIcon
+                    icon={faCheckCircle}
+                    className="mr-2 text-noncompact-accent"
+                  />
                   <span>
                     Decompensated heart failure, or otherwise clinically
                     unstable
                   </span>
                 </li>
                 <li className="list-group-item text-muted">
-                  <FontAwesomeIcon icon={faCheckCircle} className="mr-2 text-noncompact-accent" />
+                  <FontAwesomeIcon
+                    icon={faCheckCircle}
+                    className="mr-2 text-noncompact-accent"
+                  />
                   <span>BMI&gt;40 kg/m2</span>
                 </li>
                 <li className="list-group-item text-muted">
-                  <FontAwesomeIcon icon={faCheckCircle} className="mr-2 text-noncompact-accent" />
+                  <FontAwesomeIcon
+                    icon={faCheckCircle}
+                    className="mr-2 text-noncompact-accent"
+                  />
                   <span>Pregnancy (or cannot be ruled out)</span>
                 </li>
                 <li className="list-group-item text-muted">
-                  <FontAwesomeIcon icon={faCheckCircle} className="mr-2 text-noncompact-accent" />
+                  <FontAwesomeIcon
+                    icon={faCheckCircle}
+                    className="mr-2 text-noncompact-accent"
+                  />
                   <span>Known iodine contrast medium allergy</span>
                 </li>
                 <li className="list-group-item text-muted">
-                  <FontAwesomeIcon icon={faCheckCircle} className="mr-2 text-noncompact-accent" />
+                  <FontAwesomeIcon
+                    icon={faCheckCircle}
+                    className="mr-2 text-noncompact-accent"
+                  />
                   <span>Kidney dysfunction: eGFR&lt;45 ml/min</span>
                 </li>
                 <li className="list-group-item text-muted">
-                  <FontAwesomeIcon icon={faCheckCircle} className="mr-2 text-noncompact-accent" />
+                  <FontAwesomeIcon
+                    icon={faCheckCircle}
+                    className="mr-2 text-noncompact-accent"
+                  />
                   <span>
                     Thyroid disease: toxic multinodular goiter, Graves&apos;
                     disease, Hashimoto&apos;s thyroiditis
@@ -196,8 +235,19 @@ function Patients() {
       <section className="page-section bg-light">
         <div className="container">
           <div className="row text-left">
-            <h2 className="section-heading">What is non-compaction cardiomyopathy</h2>
-            <p className="text-muted">Non-compaction cardiomyopathy (NCCM), also sometimes called left ventricular noncompaction (LVNC), is a heterogeneous, poorly understood disorder characterized by a prominent inner layer of loose myocardial tissue, and associated with heart failure, stroke, severe rhythm irregularities and death. For a growing population diagnosed with NCCM there is a need for better risk stratification to appropriately allocate (or safely withhold) these impactful preventive measures.</p>
+            <h2 className="section-heading">
+              What is non-compaction cardiomyopathy
+            </h2>
+            <p className="text-muted">
+              Non-compaction cardiomyopathy (NCCM), also sometimes called left
+              ventricular noncompaction (LVNC), is a heterogeneous, poorly
+              understood disorder characterized by a prominent inner layer of
+              loose myocardial tissue, and associated with heart failure,
+              stroke, severe rhythm irregularities and death. For a growing
+              population diagnosed with NCCM there is a need for better risk
+              stratification to appropriately allocate (or safely withhold)
+              these impactful preventive measures.
+            </p>
           </div>
         </div>
       </section>
@@ -206,7 +256,12 @@ function Patients() {
         <div className="container">
           <div className="row text-left">
             <h2 className="section-heading">Why do we study NCCM</h2>
-            <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur.</p>
+            <p className="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+              voluptatum eius sapiente, totam reiciendis temporibus qui
+              quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
+              dolore laudantium consectetur.
+            </p>
           </div>
         </div>
       </section>
@@ -215,7 +270,12 @@ function Patients() {
         <div className="container">
           <div className="row text-left">
             <h2 className="section-heading">Impressive images</h2>
-            <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur.</p>
+            <p className="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+              voluptatum eius sapiente, totam reiciendis temporibus qui
+              quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
+              dolore laudantium consectetur.
+            </p>
           </div>
         </div>
       </section>
@@ -224,7 +284,12 @@ function Patients() {
         <div className="container">
           <div className="row text-left">
             <h2 className="section-heading">FAQs</h2>
-            <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur.</p>
+            <p className="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+              voluptatum eius sapiente, totam reiciendis temporibus qui
+              quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
+              dolore laudantium consectetur.
+            </p>
           </div>
         </div>
       </section>

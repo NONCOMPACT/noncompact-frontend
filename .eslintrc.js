@@ -8,6 +8,9 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'react/jsx-props-no-spreading': 'off',
+    'no-param-reassign': 'off',
+    'no-console': 'off',
+    'react/jsx-filename-extension': 'off',
   },
   env: {
     browser: true,
