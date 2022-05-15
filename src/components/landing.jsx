@@ -5,6 +5,7 @@ import {
   faUserCircle,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import LogoStanford from '../assets/logo-stanford.png';
 import LogoClevelandClinic from '../assets/logo-clevelandclinic.png';
 import LogoUPenn from '../assets/logo-upenn.png';
 import LogoErasmus from '../assets/logo-erasmus.png';
@@ -130,9 +131,18 @@ function LandingPage() {
       </section>
       {/* Consortium Site Links */}
       <div className="container py-5 border-top">
-        <div className="row">
-          <div className="col-md-3 col-sm-6 my-3 px-4 d-flex align-items-center">
-            <a href="#!" className="external-link">
+        <div className="row  row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-5 d-flex align-items-center">
+          <div className="institution-logo col">
+            <a href="https://www.stanford.edu/" className="external-link">
+              <img
+                className="img-fluid d-block mx-auto"
+                src={LogoStanford}
+                alt="Stanford University"
+              />
+            </a>
+          </div>
+          <div className="institution-logo col">
+            <a href="https://my.clevelandclinic.org/" className="external-link">
               <img
                 className="img-fluid d-block mx-auto"
                 src={LogoClevelandClinic}
@@ -140,8 +150,8 @@ function LandingPage() {
               />
             </a>
           </div>
-          <div className="col-md-3 col-sm-6 my-3 px-4 d-flex align-items-center">
-            <a href="#!" className="external-link">
+          <div className="institution-logo col">
+            <a href="https://www.upenn.edu/" className="external-link">
               <img
                 className="img-fluid d-block mx-auto"
                 src={LogoUPenn}
@@ -149,8 +159,8 @@ function LandingPage() {
               />
             </a>
           </div>
-          <div className="col-md-3 col-sm-6 my-3 px-4 d-flex align-items-center">
-            <a href="#!" className="external-link">
+          <div className="institution-logo col">
+            <a href="https://www.erasmusmc.nl/nl-nl/" className="external-link">
               <img
                 className="img-fluid d-block mx-auto"
                 src={LogoErasmus}
@@ -158,8 +168,8 @@ function LandingPage() {
               />
             </a>
           </div>
-          <div className="col-md-3 col-sm-6 my-3 px-4 d-flex align-items-center">
-            <a href="#!" className="external-link">
+          <div className="institution-logo col">
+            <a href="https://cancer.snuh.org/main.do" className="external-link">
               <img
                 className="img-fluid d-block mx-auto"
                 src={LogoSNUH}
