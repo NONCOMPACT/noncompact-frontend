@@ -2,7 +2,7 @@ import React from 'react';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import institutions from '../lib/institutions';
-import investigators, { principleInvestigators } from '../lib/investigators';
+import investigators, { principalInvestigators } from '../lib/investigators';
 
 function AboutUs() {
   // Render investigators of each institution
@@ -41,7 +41,7 @@ function AboutUs() {
   function renderPrincipleInvestigators() {
     return (
       <div className="investigators-list row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 mt-4 w-100">
-        {principleInvestigators.map((item) => {
+        {principalInvestigators.map((item) => {
           return (
             <article key={item.name} className="investigator col mb-4">
               <figure className="investigator-image mb-2">
@@ -105,7 +105,7 @@ function AboutUs() {
           {/* Principle Investigators */}
           <div className="row text-left">
             <h3 className="mt-3 mb-1 w-100 font-weight-bold text-noncompact-secondary">
-              Principle Investigators
+              Principal Investigators
             </h3>
             {renderPrincipleInvestigators()}
           </div>

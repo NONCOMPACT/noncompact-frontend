@@ -91,7 +91,7 @@ const investigators = [
   },
 ];
 
-export const principleInvestigators = [
+export const principalInvestigators = [
   {
     name: 'Koen Nieman',
     photo: KoenNiemanImg,
