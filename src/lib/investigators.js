@@ -35,12 +35,7 @@ const investigators = [
     institution: 'Stanford University',
   },
   {
-    name: 'June Rhee',
-    photo: JuneRheeImg,
-    institution: 'Stanford University',
-  },
-  {
-    name: 'Jarrett Rosenberg',
+    name: 'Nisha Udupa',
     photo: null,
     institution: 'Stanford University',
   },
