@@ -19,7 +19,7 @@ function App() {
             <Route path="/" exact component={LandingPage} />
             <Route path="/about" component={AboutUs} />
             <Route path="/patients" component={Patients} />
-            <Route path="/physician" component={Physicians} />
+            <Route path="/physicians" component={Physicians} />
           </Switch>
         </section>
         <footer className="footer mt-auto">

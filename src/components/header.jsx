@@ -51,12 +51,12 @@ function Header() {
             </li>
             <li className="nav-item">
               <Link
-                to="/physician"
+                to="/physicians"
                 className={`nav-link ${
-                  currentPath === '/physician' ? 'active' : ''
+                  currentPath === '/physicians' ? 'active' : ''
                 }`}
               >
-                Physician
+                Physicians
               </Link>
             </li>
           </ul>
