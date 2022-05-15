@@ -12,7 +12,7 @@ function AboutUs() {
     );
     if (people && people.length) {
       return (
-        <div className="investigators-list row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 mt-4">
+        <div className="investigators-list row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 mt-4 w-100">
           {people.map((item) => {
             return (
               <article key={item.name} className="investigator col mb-4">
@@ -38,7 +38,7 @@ function AboutUs() {
     return null;
   }
 
-  function renderPrincipleInvestigators() {
+  function renderPrincipalInvestigators() {
     return (
       <div className="investigators-list row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 mt-4 w-100">
         {principalInvestigators.map((item) => {
@@ -63,7 +63,7 @@ function AboutUs() {
   // Render 5 rows of institutions
   function renderInstitutions() {
     return (
-      <div className="institutions-wrapper">
+      <div className="institutions-wrapper w-100">
         {institutions.map((item) => {
           return (
             <div key={item.abbr} className="institution-row">
@@ -102,16 +102,16 @@ function AboutUs() {
               non-compaction.
             </p>
           </div>
-          {/* Principle Investigators */}
+          {/* Principal Investigators */}
           <div className="row text-left">
             <h3 className="mt-3 mb-1 w-100 font-weight-bold text-noncompact-secondary">
               Principal Investigators
             </h3>
-            {renderPrincipleInvestigators()}
+            {renderPrincipalInvestigators()}
           </div>
           {/* Co-Investigators */}
           <div className="row text-left">
-            <h4 className="mt-3 mb-4 font-weight-bold text-noncompact-secondary">
+            <h4 className="mt-3 mb-4 w-100 font-weight-bold text-noncompact-secondary">
               Investigators from the five institutions below are the founders of
               the NONCOMPACT Consortium
             </h4>
