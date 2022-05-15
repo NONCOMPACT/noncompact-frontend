@@ -5,7 +5,7 @@ import Footer from './components/footer';
 import LandingPage from './components/landing';
 import AboutUs from './components/about';
 import Patients from './components/patients';
-import Physician from './components/physician';
+import Physicians from './components/physicians';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
             <Route path="/" exact component={LandingPage} />
             <Route path="/about" component={AboutUs} />
             <Route path="/patients" component={Patients} />
-            <Route path="/physician" component={Physician} />
+            <Route path="/physician" component={Physicians} />
           </Switch>
         </section>
         <footer className="footer mt-auto">
