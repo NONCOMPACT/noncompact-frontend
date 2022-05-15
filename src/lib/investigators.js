@@ -2,7 +2,6 @@ import MattWheelerImg from '../assets/investigators/matt_wheeler.png';
 import KoenNiemanImg from '../assets/investigators/koen_nieman.png';
 import DanielRubinImg from '../assets/investigators/daniel_rubin.png';
 import FrancoisHaddadImg from '../assets/investigators/francois_haddad.png';
-import JuneRheeImg from '../assets/investigators/june_rhee.png';
 import WilsonTangImg from '../assets/investigators/wilson_tang.png';
 import DebbieKwonImg from '../assets/investigators/debbie_kwon.png';
 import AnjaliOwensImg from '../assets/investigators/anjali_owens.png';
