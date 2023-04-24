@@ -4,6 +4,7 @@ import {
   faExternalLinkAlt,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import LVWallImg from '../assets/3d_render_lv_wall.jpg';
 
 function Patients() {
   return (
@@ -42,7 +43,7 @@ function Patients() {
                     icon={faCheckCircle}
                     className="mr-2 text-noncompact-accent"
                   />
-                  <span>≥18 years old</span>
+                  <span>At least 18 years old</span>
                 </li>
                 <li className="list-group-item text-muted">
                   <FontAwesomeIcon
@@ -50,8 +51,8 @@ function Patients() {
                     className="mr-2 text-noncompact-accent"
                   />
                   <span>
-                    Hypertrabeculation of the left ventricle fulfilling the
-                    echo-based Jenni criteria of NCCM
+                    Increased trabeculations of the left ventricle seen by
+                    echocardiography
                   </span>
                 </li>
                 <li className="list-group-item text-muted">
@@ -60,14 +61,15 @@ function Patients() {
                     className="mr-2 text-noncompact-accent"
                   />
                   <span>
-                    Clinical cardiac MRI examination performed or planned
+                    A cardiac MRI scan was previously performed or is planned
+                    for clinical reasons
                   </span>
                 </li>
               </ul>
             </div>
-            {/* Exclusion Criteria (general cohort) */}
+            {/* General exclusion criteria */}
             <h5 className="my-3 font-weight-bold">
-              Exclusion Criteria (general cohort)
+              General exclusion criteria
             </h5>
             <div className="w-100 mb-3">
               <ul className="list-group">
@@ -77,19 +79,9 @@ function Patients() {
                     className="mr-2 text-noncompact-accent"
                   />
                   <span>
-                    Complex congenital disease (including transposition great
-                    arteries, tetralogy of Fallot, tricuspid atresia, truncus
-                    arteriosis, single ventricle, hypoplastic left heart,
-                    pulmonary atresia, double-outlet RV), neuromuscular
-                    disorders or isolated RV non-compaction
+                    Complex congenital heart disease, neuromuscular disorders,
+                    increased trabeculations of the right ventricle alone
                   </span>
-                </li>
-                <li className="list-group-item text-muted">
-                  <FontAwesomeIcon
-                    icon={faCheckCircle}
-                    className="mr-2 text-noncompact-accent"
-                  />
-                  <span>Inability to provide informed consent</span>
                 </li>
                 <li className="list-group-item text-muted">
                   <FontAwesomeIcon
@@ -97,22 +89,18 @@ function Patients() {
                     className="mr-2 text-noncompact-accent"
                   />
                   <span>
-                    Contra-indications to MRI, which apply if the clinical
-                    cardiac MRI has not yet been performed at the time of study
-                    enrollment: permanent pacemakers/ICDs, MRI contrast medium
-                    allergy, significant arrhythmia with highly irregular RR
-                    intervals, severe dyspnea with inability to lay flat/breath
-                    hold, inability to communicate with the MRI technician or
-                    follow commands for any reason (psychosis, agitation, etc.),
-                    other site-specific contra-indications to clinical MRI of
-                    the heart.
+                    Inability to safely undergo cardiac MRI (only applies if an
+                    MRI scan has not yet been performed), for example: pacemaker
+                    or ICD, contrast allergy, irregular heart rhythm, severe
+                    shortness of breath
                   </span>
                 </li>
               </ul>
             </div>
-            {/* Exclusion Criteria (cardiac CT examination) */}
+            {/* Exclusion criteria for CT scan */}
             <h5 className="my-3 font-weight-bold">
-              Exclusion Criteria (cardiac CT examination)
+              Exclusion criteria for CT scan (if contra-indications to CT exist
+              participation in the general study is still possible)
             </h5>
             <div className="w-100 mb-3">
               <ul className="list-group">
@@ -121,7 +109,7 @@ function Patients() {
                     icon={faCheckCircle}
                     className="mr-2 text-noncompact-accent"
                   />
-                  <span>Age &lt;21 years</span>
+                  <span>Age below 21 years</span>
                 </li>
                 <li className="list-group-item text-muted">
                   <FontAwesomeIcon
@@ -236,17 +224,16 @@ function Patients() {
         <div className="container">
           <div className="row text-left">
             <h2 className="section-heading">
-              What is non-compaction cardiomyopathy
+              What is non-compaction of the left ventricle?
             </h2>
             <p className="text-muted">
-              Non-compaction cardiomyopathy (NCCM), also sometimes called left
-              ventricular noncompaction (LVNC), is a heterogeneous, poorly
-              understood disorder characterized by a prominent inner layer of
-              loose myocardial tissue, and associated with heart failure,
-              stroke, severe rhythm irregularities and death. For a growing
-              population diagnosed with NCCM there is a need for better risk
-              stratification to appropriately allocate (or safely withhold)
-              these impactful preventive measures.
+              Left ventricular non-compaction (LVNC), also referred to as
+              non-compaction cardiomyopathy or increased trabeculation of the
+              left ventricle, is a poorly understood disorder characterized by a
+              left heart chamber with a prominent inner layer of loose
+              myocardial tissue. The condition has been associated with heart
+              failure, stroke and arrhythmia. However, for most patients with
+              increased trabeculations there are no negative consequences.
             </p>
           </div>
         </div>
@@ -255,12 +242,21 @@ function Patients() {
       <section className="page-section">
         <div className="container">
           <div className="row text-left">
-            <h2 className="section-heading">Why do we study NCCM</h2>
+            <h2 className="section-heading">
+              Why do we study LV non-compaction?
+            </h2>
             <p className="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-              voluptatum eius sapiente, totam reiciendis temporibus qui
-              quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-              dolore laudantium consectetur.
+              LV non-compaction is more and more often diagnosed, partially
+              because of the improved quality of imaging techniques. A small
+              proportion of patients with increased trabeculations develop
+              complications, but in the vast majority the condition does not
+              cause problems in the future. Currently we are not well able to
+              tell which type of non-compaction is harmless and which one
+              requires measures to prevent complications. For a growing group of
+              patients diagnosed with LV non-compaction there is a need for
+              better risk stratification to appropriately allocate (or safely
+              withhold) impactful preventive measures such as ICDs and
+              anticoagulation (blood thinners).
             </p>
           </div>
         </div>
@@ -269,27 +265,12 @@ function Patients() {
       <section className="page-section bg-light">
         <div className="container">
           <div className="row text-left">
-            <h2 className="section-heading">Impressive images</h2>
+            <h2 className="section-heading">3D structure of the LV wall</h2>
             <p className="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-              voluptatum eius sapiente, totam reiciendis temporibus qui
-              quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-              dolore laudantium consectetur.
+              3D Rendered inside view of the left ventricle, which shows the
+              complex trabecular structure of the ventricular wall.
             </p>
-          </div>
-        </div>
-      </section>
-      {/* FAQs */}
-      <section className="page-section">
-        <div className="container">
-          <div className="row text-left">
-            <h2 className="section-heading">FAQs</h2>
-            <p className="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-              voluptatum eius sapiente, totam reiciendis temporibus qui
-              quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-              dolore laudantium consectetur.
-            </p>
+            <img src={LVWallImg} alt="LV Wall" className="rounded float-left" />
           </div>
         </div>
       </section>
