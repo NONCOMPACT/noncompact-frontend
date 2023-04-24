@@ -49,28 +49,27 @@ function LandingPage() {
                 <div className="imaging-example example-echo">
                   <img src={imagingExamples.echo} alt="Echocardiogram" />
                 </div>
-                <h4 className="my-3 font-weight-bold">Case 1</h4>
+                <h4 className="my-3 font-weight-bold">Echocardiogram</h4>
                 <p className="text-muted">
-                  Echocardiogram showing thickening of the apex of the left
-                  ventricle.
+                  Example showing thickening of the apex of the left ventricle.
                 </p>
               </div>
               <div className="col-md-4">
                 <div className="imaging-example example-mri">
                   <img src={imagingExamples.mri} alt="MRI scan" />
                 </div>
-                <h4 className="my-3 font-weight-bold">Case 2</h4>
+                <h4 className="my-3 font-weight-bold">MRI Scan</h4>
                 <p className="text-muted">
-                  MRI scan showing increased trabecular muscle.
+                  Example showing increased trabecular muscle.
                 </p>
               </div>
               <div className="col-md-4">
                 <div className="imaging-example example-ct">
                   <img src={imagingExamples.ct} alt="CT scan" />
                 </div>
-                <h4 className="my-3 font-weight-bold">Case 3</h4>
+                <h4 className="my-3 font-weight-bold">CT Scan</h4>
                 <p className="text-muted">
-                  CT scan showing increased trabeculations along the wall of the
+                  Example showing increased trabeculations along the wall of the
                   left ventricle.
                 </p>
               </div>
