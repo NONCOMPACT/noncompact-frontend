@@ -11,7 +11,7 @@ const institutions = [
     logo: LogoStanford,
   },
   {
-    name: 'The Cleveland Clinic',
+    name: 'Cleveland Clinic',
     abbr: 'clevelandclinic',
     logo: LogoClevelandClinic,
   },
