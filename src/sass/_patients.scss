@@ -1,5 +1,9 @@
 .patients-page-container {
   padding-top: 6.5rem;
+
+  img {
+    width: 40%;
+  }
 }
 
 @include media-breakpoint-up(lg) {
