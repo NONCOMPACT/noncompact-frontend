@@ -1,10 +1,4 @@
 import React from 'react';
-import {
-  faBriefcaseMedical,
-  faCircle,
-  faUserCircle,
-} from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import LogoStanford from '../assets/logo-stanford.png';
 import LogoClevelandClinic from '../assets/logo-clevelandclinic.png';
 import LogoUPenn from '../assets/logo-upenn.png';
