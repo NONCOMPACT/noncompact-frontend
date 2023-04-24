@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import institutions from '../lib/institutions';
 import investigators, { principalInvestigators } from '../lib/investigators';
 
-function AboutUs() {
+function Team() {
   // Render investigators of each institution
   function renderInvestigators(institution) {
     const people = investigators.filter(
@@ -123,12 +123,11 @@ function AboutUs() {
       <section className="page-section">
         <div className="container">
           <div className="row text-left">
-            <h2 className="section-heading">NIH Funding</h2>
+            <h2 className="section-heading">Study Funding</h2>
             <p className="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-              voluptatum eius sapiente, totam reiciendis temporibus qui
-              quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-              dolore laudantium consectetur.
+              The International Consortium for Multimodality Phenotyping in
+              Adults with Non-compaction (NONCOMPACT) is funded by the National
+              Institutes of Health (NHLBI R01HL146754).
             </p>
           </div>
         </div>
@@ -137,4 +136,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default Team;

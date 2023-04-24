@@ -11,6 +11,7 @@ import RicardoBuddeImg from '../assets/investigators/ricardo_budde.png';
 import AlexanderHirschImg from '../assets/investigators/alexander_hirsch.png';
 import SeungPyoLeeImg from '../assets/investigators/seung-pyo_lee.png';
 import WhalLeeImg from '../assets/investigators/whal_lee.png';
+import KatieDeSutterImg from '../assets/investigators/katie_desutter.png';
 
 const investigators = [
   {
@@ -34,19 +35,19 @@ const investigators = [
     institution: 'Stanford University',
   },
   {
-    name: 'Nisha Udupa',
-    photo: null,
+    name: 'Katie DeSutter',
+    photo: KatieDeSutterImg,
     institution: 'Stanford University',
   },
   {
     name: 'Wilson Tang',
     photo: WilsonTangImg,
-    institution: 'The Cleveland Clinic',
+    institution: 'Cleveland Clinic',
   },
   {
     name: 'Debbie Kwon',
     photo: DebbieKwonImg,
-    institution: 'The Cleveland Clinic',
+    institution: 'Cleveland Clinic',
   },
   {
     name: 'Anjali Owens',
