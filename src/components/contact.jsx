@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Physicians() {
+function Contact() {
   return (
     <div className="physician-page-container">
       {/* Information to refer patients */}
@@ -23,4 +23,4 @@ function Physicians() {
   );
 }
 
-export default Physicians;
+export default Contact;

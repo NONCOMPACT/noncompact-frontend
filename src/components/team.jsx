@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import institutions from '../lib/institutions';
 import investigators, { principalInvestigators } from '../lib/investigators';
 
-function AboutUs() {
+function Team() {
   // Render investigators of each institution
   function renderInvestigators(institution) {
     const people = investigators.filter(
@@ -136,4 +136,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default Team;

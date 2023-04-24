@@ -6,7 +6,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import LVWallImg from '../assets/3d_render_lv_wall.jpg';
 
-function Patients() {
+function Study() {
   return (
     <div className="patients-page-container">
       {/* Information about the study in lay language */}
@@ -278,4 +278,4 @@ function Patients() {
   );
 }
 
-export default Patients;
+export default Study;

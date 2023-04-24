@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/header';
 import Footer from './components/footer';
 import LandingPage from './components/landing';
-import AboutUs from './components/about';
-import Patients from './components/patients';
-import Physicians from './components/physicians';
+import Team from './components/team';
+import Study from './components/study';
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -17,9 +17,9 @@ function App() {
         <section className="main">
           <Switch>
             <Route path="/" exact component={LandingPage} />
-            <Route path="/about" component={AboutUs} />
-            <Route path="/patients" component={Patients} />
-            <Route path="/physicians" component={Physicians} />
+            <Route path="/team" component={Team} />
+            <Route path="/study" component={Study} />
+            <Route path="/contact" component={Contact} />
           </Switch>
         </section>
         <footer className="footer mt-auto">

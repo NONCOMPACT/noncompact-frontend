@@ -31,32 +31,32 @@ function Header() {
             </li>
             <li className="nav-item">
               <Link
-                to="/about"
+                to="/team"
                 className={`nav-link ${
-                  currentPath === '/about' ? 'active' : ''
+                  currentPath === '/team' ? 'active' : ''
                 }`}
               >
-                About
+                Team
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/patients"
+                to="/study"
                 className={`nav-link ${
-                  currentPath === '/patients' ? 'active' : ''
+                  currentPath === '/study' ? 'active' : ''
                 }`}
               >
-                Patients
+                The Study
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/physicians"
+                to="/contact"
                 className={`nav-link ${
-                  currentPath === '/physicians' ? 'active' : ''
+                  currentPath === '/contact' ? 'active' : ''
                 }`}
               >
-                Physicians
+                Contact
               </Link>
             </li>
           </ul>
