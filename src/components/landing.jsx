@@ -10,6 +10,7 @@ import LogoClevelandClinic from '../assets/logo-clevelandclinic.png';
 import LogoUPenn from '../assets/logo-upenn.png';
 import LogoErasmus from '../assets/logo-erasmus.png';
 import LogoSNUH from '../assets/logo-snuh.png';
+import imagingExamples from '../lib/imaging';
 
 function LandingPage() {
   return (
@@ -51,16 +52,9 @@ function LandingPage() {
             <h2 className="section-heading">Imaging Examples</h2>
             <div className="row pt-4">
               <div className="col-md-4">
-                <span className="fa-stack fa-4x">
-                  <FontAwesomeIcon
-                    icon={faCircle}
-                    className="fa-stack-2x text-noncompact-accent"
-                  />
-                  <FontAwesomeIcon
-                    icon={faBriefcaseMedical}
-                    className="fa-stack-1x fa-inverse"
-                  />
-                </span>
+                <div className="imaging-example example-echo">
+                  <img src={imagingExamples.echo} alt="Echocardiogram" />
+                </div>
                 <h4 className="my-3 font-weight-bold">Case 1</h4>
                 <p className="text-muted">
                   Echocardiogram showing thickening of the apex of the left
@@ -68,32 +62,18 @@ function LandingPage() {
                 </p>
               </div>
               <div className="col-md-4">
-                <span className="fa-stack fa-4x">
-                  <FontAwesomeIcon
-                    icon={faCircle}
-                    className="fa-stack-2x text-noncompact-accent"
-                  />
-                  <FontAwesomeIcon
-                    icon={faBriefcaseMedical}
-                    className="fa-stack-1x fa-inverse"
-                  />
-                </span>
+                <div className="imaging-example example-mri">
+                  <img src={imagingExamples.mri} alt="MRI scan" />
+                </div>
                 <h4 className="my-3 font-weight-bold">Case 2</h4>
                 <p className="text-muted">
                   MRI scan showing increased trabecular muscle.
                 </p>
               </div>
               <div className="col-md-4">
-                <span className="fa-stack fa-4x">
-                  <FontAwesomeIcon
-                    icon={faCircle}
-                    className="fa-stack-2x text-noncompact-accent"
-                  />
-                  <FontAwesomeIcon
-                    icon={faBriefcaseMedical}
-                    className="fa-stack-1x fa-inverse"
-                  />
-                </span>
+                <div className="imaging-example example-ct">
+                  <img src={imagingExamples.ct} alt="CT scan" />
+                </div>
                 <h4 className="my-3 font-weight-bold">Case 3</h4>
                 <p className="text-muted">
                   CT scan showing increased trabeculations along the wall of the
