@@ -7,12 +7,14 @@ function Physicians() {
       <section className="page-section">
         <div className="container">
           <div className="row text-left">
-            <h2 className="section-heading">Information to refer patients</h2>
+            <h2 className="section-heading">Contact Information</h2>
             <p className="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-              voluptatum eius sapiente, totam reiciendis temporibus qui
-              quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-              dolore laudantium consectetur.
+              For more information about the NONCOMPACT study or participation,
+              please email us at{' '}
+              <a href="mailto:noncompact-study@stanford.edu">
+                noncompact-study@stanford.edu
+              </a>
+              .
             </p>
           </div>
         </div>
