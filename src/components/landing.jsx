@@ -21,7 +21,7 @@ function LandingPage() {
             <div className="hero-tagline row align-items-center justify-content-start py-12">
               <h1 className="col-md-12">
                 International Consortium for Multimodality Phenotyping in Adults
-                with non-Compaction
+                with Non-Compaction
               </h1>
             </div>
           </div>
@@ -38,10 +38,8 @@ function LandingPage() {
           <div className="text-center">
             <h2 className="section-heading">Enrollment Update</h2>
             <p className="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-              voluptatum eius sapiente, totam reiciendis temporibus qui
-              quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-              dolore laudantium consectetur.
+              As of April 2023, all centers are activily enrolling and a total
+              of 120 participants were enrolled to date.
             </p>
           </div>
         </div>
@@ -50,7 +48,7 @@ function LandingPage() {
       <section className="page-section bg-light">
         <div className="container">
           <div className="text-center">
-            <h2 className="section-heading">Example Cases</h2>
+            <h2 className="section-heading">Imaging Examples</h2>
             <div className="row pt-4">
               <div className="col-md-4">
                 <span className="fa-stack fa-4x">
@@ -63,11 +61,10 @@ function LandingPage() {
                     className="fa-stack-1x fa-inverse"
                   />
                 </span>
-                <h4 className="my-3 font-weight-bold">Case 1 Title</h4>
+                <h4 className="my-3 font-weight-bold">Case 1</h4>
                 <p className="text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Minima maxime quam architecto quo inventore harum ex magni,
-                  dicta impedit.
+                  Echocardiogram showing thickening of the apex of the left
+                  ventricle.
                 </p>
               </div>
               <div className="col-md-4">
@@ -81,11 +78,9 @@ function LandingPage() {
                     className="fa-stack-1x fa-inverse"
                   />
                 </span>
-                <h4 className="my-3 font-weight-bold">Case 2 Title</h4>
+                <h4 className="my-3 font-weight-bold">Case 2</h4>
                 <p className="text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Minima maxime quam architecto quo inventore harum ex magni,
-                  dicta impedit.
+                  MRI scan showing increased trabecular muscle.
                 </p>
               </div>
               <div className="col-md-4">
@@ -99,38 +94,18 @@ function LandingPage() {
                     className="fa-stack-1x fa-inverse"
                   />
                 </span>
-                <h4 className="my-3 font-weight-bold">Case 3 Title</h4>
+                <h4 className="my-3 font-weight-bold">Case 3</h4>
                 <p className="text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Minima maxime quam architecto quo inventore harum ex magni,
-                  dicta impedit.
+                  CT scan showing increased trabeculations along the wall of the
+                  left ventricle.
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      {/* Something Personal */}
-      <section className="page-section">
-        <div className="container">
-          <div className="text-center">
-            <div className="fa-4x mb-4">
-              <FontAwesomeIcon
-                icon={faUserCircle}
-                className="fa-4x text-noncompact-secondary"
-              />
-            </div>
-            <p className="text-muted font-italic">
-              Something personal - Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Sunt ut voluptatum eius sapiente, totam
-              reiciendis temporibus qui quibusdam, recusandae sit vero unde,
-              sed, incidunt et ea quo dolore laudantium consectetur.
-            </p>
           </div>
         </div>
       </section>
       {/* Consortium Site Links */}
-      <div className="container py-5 border-top">
+      <div className="container py-5">
         <div className="row  row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-5 d-flex align-items-center">
           <div className="institution-logo col">
             <a href="https://www.stanford.edu/" className="external-link">
