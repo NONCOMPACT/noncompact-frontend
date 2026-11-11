@@ -31,6 +31,16 @@ function Header() {
             </li>
             <li className="nav-item">
               <Link
+                to="/research"
+                className={`nav-link ${
+                  currentPath === '/research' ? 'active' : ''
+                }`}
+              >
+                Research
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
                 to="/team"
                 className={`nav-link ${
                   currentPath === '/team' ? 'active' : ''
