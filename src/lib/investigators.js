@@ -25,18 +25,8 @@ const investigators = [
     institution: 'Stanford University',
   },
   {
-    name: 'Daniel Rubin',
-    photo: DanielRubinImg,
-    institution: 'Stanford University',
-  },
-  {
     name: 'Francois Haddad',
     photo: FrancoisHaddadImg,
-    institution: 'Stanford University',
-  },
-  {
-    name: 'Katie DeSutter',
-    photo: KatieDeSutterImg,
     institution: 'Stanford University',
   },
   {

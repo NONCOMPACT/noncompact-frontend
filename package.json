@@ -2,11 +2,12 @@
   "name": "noncompact",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "yarn@4.12.0",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "6.4.0",
-    "@fortawesome/free-solid-svg-icons": "6.4.0",
-    "@fortawesome/react-fontawesome": "0.2.0",
-    "bootstrap": "4.6.1",
+    "@fortawesome/fontawesome-svg-core": "6.7.2",
+    "@fortawesome/free-solid-svg-icons": "6.7.2",
+    "@fortawesome/react-fontawesome": "0.2.6",
+    "bootstrap": "4.6.2",
     "cra-template": "1.2.0",
     "prop-types": "^15.8.1",
     "react": "^18.1.0",
@@ -39,13 +40,13 @@
   },
   "devDependencies": {
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.7",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^2.8.8",
+    "prettier": "^3.9.10",
     "sass": "^1.62.1",
-    "stylelint": "^15.6.2",
-    "stylelint-config-recommended": "^12.0.0"
+    "stylelint": "^18.0.0",
+    "stylelint-config-recommended": "^19.0.0"
   },
   "resolutions": {
     "autoprefixer": "10.4.5"

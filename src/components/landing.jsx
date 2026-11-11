@@ -33,8 +33,7 @@ function LandingPage() {
           <div className="text-center">
             <h2 className="section-heading">Enrollment Update</h2>
             <p className="text-muted">
-              As of April 2023, all centers are activily enrolling and a total
-              of 120 participants were enrolled to date.
+              Enrollment has completed.
             </p>
           </div>
         </div>

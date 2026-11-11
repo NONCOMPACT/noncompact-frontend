@@ -6,6 +6,7 @@ import LandingPage from './components/landing';
 import Team from './components/team';
 import Study from './components/study';
 import Contact from './components/contact';
+import Research from './components/research';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <section className="main">
           <Switch>
             <Route path="/" exact component={LandingPage} />
+            <Route path="/research" component={Research} />
             <Route path="/team" component={Team} />
             <Route path="/study" component={Study} />
             <Route path="/contact" component={Contact} />
