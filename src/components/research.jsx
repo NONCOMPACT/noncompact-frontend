@@ -1,8 +1,5 @@
 import React from 'react';
-import {
-  faCheckCircle,
-  faExternalLinkAlt,
-} from '@fortawesome/free-solid-svg-icons';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Research() {
