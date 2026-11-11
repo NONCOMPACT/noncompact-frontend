@@ -1,0 +1,13 @@
+.research-page-container {
+  padding-top: 6.5rem;
+
+  .publication-citation a span {
+    font-size: 1.05em;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .research-page-container {
+    padding-top: 4rem;
+  }
+}
